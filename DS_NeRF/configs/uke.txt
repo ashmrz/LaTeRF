@@ -1,0 +1,34 @@
+expname = uke
+basedir = ./logs
+datadir = ./data/uke
+dataset_type = llff
+
+factor = 4
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+
+use_viewdirs = True
+
+colmap_depth = True
+depth_loss = True
+depth_lambda = 0.1
+
+no_ndc = True
+lindisp = True
+
+render_factor = 4
+i_clip = 10
+i_video = 10000000
+clip_weight = 0.0005
+clf_weight = 0.1
+clf_reg_weight = 0.0
+
+lrate = 0.01
+lrate_decay = 10
+
+white_bkgd = True
+
+text_query = A wooden ukulele
+revert_mask = True

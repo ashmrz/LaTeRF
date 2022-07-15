@@ -1,0 +1,35 @@
+expname = clock
+basedir = ./logs
+datadir = ./data/clock
+dataset_type = llff
+
+factor = 4
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+
+use_viewdirs = True
+raw_noise_std = 1e0
+
+colmap_depth = True
+depth_loss = True
+depth_lambda = 0.1
+
+no_ndc = True
+lindisp = True
+
+render_factor = 1
+i_clip = 100
+i_video = 10000
+clip_weight = 0
+clf_weight = 0.1
+clf_reg_weight = 0.1
+
+lrate = 0.01
+lrate_decay = 10
+
+white_bkgd = True
+
+text_query = A wooden clock
+mask_filter = True
