@@ -60,7 +60,6 @@ To train LaTeRF on the sample scenes, use one of the following commands:
 ```
 python DS_NeRF/run_nerf.py --config DS_NeRF/configs/clock.txt
 python DS_NeRF/run_nerf.py --config DS_NeRF/configs/hotdog.txt 
-python DS_NeRF/run_nerf.py --config DS_NeRF/configs/book_complement.txt
 ```
 
 --------------
