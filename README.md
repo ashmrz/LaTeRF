@@ -1,4 +1,5 @@
-# LaTeRF: Label and Text Driven Object Radiance Fields [ECCV 2022]
+# LaTeRF: Label and Text Driven Object Radiance Fields
+# [ECCV 2022]
 
 ### [Paper](https://arxiv.org/abs/2207.01583)
 
